@@ -3,7 +3,7 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
-.top-section {
+.flexible {
   display: flex;
   align-items: center;
 }
@@ -13,8 +13,8 @@
 .text-content {
   padding-left: 5%;
 }
-.top-section{
-    padding: 60px 0px;
+.top-section {
+  padding: 60px 0px;
 }
 .top-section h1 {
   color: #575757;
@@ -36,6 +36,12 @@
 .top-img {
   width: 95%;
 }
+.girl-img {
+  width: 320px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 65px;
+}
 .btn {
   color: #ffffff;
   font-size: 18px;
@@ -48,4 +54,23 @@
 }
 .btn:hover {
   background: linear-gradient(to left, #fba24f, #ff1e1e);
+}
+.about-us {
+  background-image: url(images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+h2{
+  color: #707070;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.about-us p{
+  color: #18191F;
+  font-size: 18px;
+  max-width: 450px;
+  line-height: 30px;
+  margin-bottom: 50px;
 }
