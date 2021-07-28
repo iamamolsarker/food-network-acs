@@ -206,3 +206,20 @@ h2 {
 .orange * {
   color: #fff !important;
 }
+footer {
+  background: #0b0d17;
+  padding-top: 40px;
+  padding-bottom: 110px;
+  margin-top: 80px;
+}
+footer h2{
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #5B5B5B;
+}
+footer p{
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
